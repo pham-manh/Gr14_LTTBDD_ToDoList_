@@ -14,7 +14,7 @@ public class Model {
     public Model(){
     }
 
-    public String getTask() {]['']
+    public String getTask() {
         return task;
     }
 
