@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bachground_designsecon"
+    tools:context=".RegisterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/registerToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/secon" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter email..."
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#E4E5F6" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputs"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:hint="Enter Password..."
+        android:inputType="textPassword"
+        android:textColorHint="#E4E5F6"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="50dp"
+        android:text="REGISTER"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/registerPQ"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:text="Have account, you can Login "
+        android:textColor="#F8F4F4"
+        android:textSize="16sp" />
+
+</LinearLayout>
